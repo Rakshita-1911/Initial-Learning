@@ -17,11 +17,9 @@
   color:blue;
 }
 
-/* Add underline only when clicked or active */
 .sidebar a:active{
   text-decoration: underline;
 }
-
 
 .content {
   width: 80%;
