@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zippy - Organization Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav id="navbar">
+      <div class="logo">Zippy</div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" id="mobile-menu">&#9776;</div>
+    </nav>
+  </header>
+
+  <section id="hero" class="hero-section">
+    <div class="hero-content">
+      <h1>Welcome to Zippy</h1>
+      <p>Your trusted partner for innovative solutions</p>
+      <button id="learnMoreBtn">Learn More</button>
+    </div>
+  </section>
+
+  <section id="about" class="section about-section">
+    <h2>About Us</h2>
+    <p>
+      Zippy is a forward-thinking organization committed to delivering cutting-edge technology solutions to clients worldwide. 
+      Our team of experts specialize in software development, design, and strategic consulting.
+    </p>
+  </section>
+
+  <section id="services" class="section services-section">
+    <h2>Our Services</h2>
+    <div class="services-container">
+      <div class="service-card">
+        <h3>Software Development</h3>
+        <p>Custom software tailored to your business needs.</p>
+      </div>
+      <div class="service-card">
+        <h3>UX/UI Design</h3>
+        <p>Intuitive and engaging user experience design.</p>
+      </div>
+      <div class="service-card">
+        <h3>Consulting</h3>
+        <p>Expert advice to grow and scale your technology solutions.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact-section">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <div id="formMessage"></div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Zippy. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
