@@ -1,17 +1,14 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   color: #333;
   background: #f4f4f4;
 }
 
-/* Navigation */
 header {
   background: #0066cc;
   position: sticky;
@@ -23,7 +20,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 20px 30px;
   max-width: 1200px;
   margin: auto;
 }
@@ -31,7 +28,7 @@ nav {
 .logo {
   color: white;
   font-weight: 700;
-  font-size: 1.8rem;
+  font-size:30px;
   letter-spacing: 2px;
   cursor: default;
 }
@@ -42,12 +39,13 @@ nav {
 }
 
 .nav-links li {
-  margin-left: 2rem;
+  margin-left: 20px;
 }
 
 .nav-links a {
   text-decoration: none;
   color: white;
+  font-size: 20px;
   font-weight: 600;
   transition: color 0.3s ease;
 }
@@ -56,37 +54,34 @@ nav {
   color: #ffcc00;
 }
 
-/* Mobile menu toggle */
 .menu-toggle {
   display: none;
-  font-size: 2rem;
+  font-size: 20px;
   color: white;
   cursor: pointer;
 }
 
-/* Hero Section */
-.hero-section {
+.welcome-section {
   background: linear-gradient(rgba(0, 102, 204, 0.8), rgba(0, 102, 204, 0.8)), url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
   color: white;
-  height: 90vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 0 1rem;
 }
 
-.hero-content h1 {
+.welcome-content h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
 }
 
-.hero-content p {
+.welcome-content p {
   font-size: 1.3rem;
   margin-bottom: 2rem;
 }
 
-.hero-content button {
+.welcome-content button {
   background: #ffcc00;
   color: #0066cc;
   border: none;
@@ -97,20 +92,19 @@ nav {
   transition: background 0.3s ease;
 }
 
-.hero-content button:hover {
+.welcome-content button:hover {
   background: #e6b800;
 }
 
-/* Sections */
-.section {
+section {
   max-width: 1000px;
-  margin: 3rem auto;
-  padding: 0 1rem;
+  margin: 0px auto 60px;
+  padding: 0 20px;
   text-align: center;
+  scroll-margin-top: 100px;
 }
 
-.section h2 {
-  margin-bottom: 1rem;
+section h2 {
   font-size: 2rem;
   color: #0066cc;
   border-bottom: 3px solid #0066cc;
@@ -118,7 +112,6 @@ nav {
   padding-bottom: 0.5rem;
 }
 
-/* About Section */
 .about-section p {
   max-width: 700px;
   margin: 1rem auto;
@@ -126,7 +119,6 @@ nav {
   color: #444;
 }
 
-/* Services */
 .services-container {
   display: flex;
   justify-content: center;
@@ -154,7 +146,6 @@ nav {
   color: #0066cc;
 }
 
-/* Contact */
 .contact-section form {
   max-width: 600px;
   margin: 1rem auto;
@@ -195,7 +186,6 @@ nav {
   text-align: center;
 }
 
-/* Footer */
 footer {
   background: #0066cc;
   color: white;
@@ -204,7 +194,6 @@ footer {
   margin-top: 3rem;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .nav-links {
     display: none;
