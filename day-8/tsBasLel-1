@@ -1,0 +1,15 @@
+1. What are the basic data types in TypeScript?
+
+TypeScript is like JavaScript but with types. It helps you avoid bugs by telling you what kind of data a variable should hold.
+
+Basictypes -
+
+1. number =>   Any number, like 5 or 3.14
+2. string =>	Text values
+3. boolean	=>	true/false
+4. any	=>	Can be anything 
+null =>	A value that’s empty
+undefined => Not assigned
+array => List of values
+tuple => Fixed types in fixed order
+object => Custom shape of data
